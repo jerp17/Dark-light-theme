@@ -1,0 +1,32 @@
+/* Default = Light Theme */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --btn-color: #f0f0f0;
+}
+
+/* Dark Theme Variables */
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --btn-color: #333333;
+}
+
+/* Apply variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+button {
+  background-color: var(--btn-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
